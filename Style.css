@@ -251,6 +251,10 @@ footer img {
 }
 
 /* Slide CSS (by.정승은 010-5650-9101) */
+
+:root {
+  --main-color: #c22d2f;
+}
 .magic__container {
   width: 100%;
   margin-bottom: 80px;
@@ -261,12 +265,20 @@ footer img {
 
 .magic__slide li img {
   width: 100%;
+  margin: 0 2px;
 }
 
+.slick-dots {
+  bottom: -37px;
+}
 .slick-dots li button {
   width: 20px;
   height: 20px;
-  border: 1px solid tomato;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+  background-color: var(--main-color);
 }
 
 .slick-dots li button:before {
