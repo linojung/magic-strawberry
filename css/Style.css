@@ -270,9 +270,13 @@ footer img {
 .slick-dots {
   bottom: -37px;
 }
+
+.slick-dots li {
+  margin: 0 2px;
+}
 .slick-dots li button {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border: 2px solid var(--main-color);
   border-radius: 50%;
 }
