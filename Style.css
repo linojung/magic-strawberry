@@ -260,9 +260,9 @@ footer img {
   margin-bottom: 80px;
 }
 
-.magic__slide {
+.magic__slide li {
+  overflow: hidden;
 }
-
 .magic__slide li img {
   width: 100%;
   margin: 0 2px;
