@@ -251,3 +251,24 @@ footer img {
 }
 
 /* Slide CSS (by.정승은 010-5650-9101) */
+.magic__container {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.magic__slide {
+}
+
+.magic__slide li img {
+  width: 100%;
+}
+
+.slick-dots li button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid tomato;
+}
+
+.slick-dots li button:before {
+  display: none;
+}
