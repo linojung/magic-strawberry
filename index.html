@@ -7,10 +7,11 @@
       content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"></script>
-    <!--slick.css : slick 슬라이드CSS-->
+    <!--슬라이드 플러그인 추가 (by.정승은 230903 010-5650-9101)-->
     <link rel="stylesheet" href="slick/slick.css" />
     <link rel="stylesheet" href="slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <!--end:슬라이드 플러그인 추가-->
+    <link rel="stylesheet" href="style.css" />
     <title>마법의딸기 월간 리포트</title>
   </head>
   <body>
@@ -41,25 +42,33 @@
         <ul class="magic__slide">
           <li>
             <!--슬라이드 이미지 파일-->
-            <img src="img/slide-img/test_visual_1.jpg" alt="test_visual" />
+            <img src="img/slide-img/partner_report.jpg" alt="test_visual" />
           </li>
           <li>
-            <img src="img/slide-img/test_visual_2.jpg" alt="test_visual" />
+            <img src="img/slide-img/Storage-method_01.jpg" alt="test_visual" />
           </li>
           <li>
-            <img src="img/slide-img/test_visual_3.jpg" alt="test_visual" />
+            <img src="img/slide-img/Storage-method_02.jpg" alt="test_visual" />
           </li>
           <li>
-            <img src="img/slide-img/test_visual_4.jpg" alt="test_visual" />
+            <img src="img/slide-img/Storage-method_03.jpg" alt="test_visual" />
           </li>
           <li>
-            <img src="img/slide-img/test_visual_5.jpg" alt="test_visual" />
+            <img src="img/slide-img/Storage-method_04.jpg" alt="test_visual" />
           </li>
           <li>
-            <img src="img/slide-img/test_visual_6.jpg" alt="test_visual" />
+            <img src="img/slide-img/Storage-method_05.jpg" alt="test_visual" />
           </li>
           <li>
-            <img src="img/slide-img/test_visual_7.jpg" alt="test_visual" />
+            <img src="img/slide-img/Storage-method_06.jpg" alt="test_visual" />
+          </li>
+          <li>
+            <video
+              src="img/slide-img/recipe_sub_content.mp4"
+              autoplay
+              controls
+              loop
+            ></video>
           </li>
         </ul>
       </div>
@@ -78,11 +87,15 @@
             speed: 300,
             slidesToShow: 1,
             adaptiveHeight: true,
+            autoplay: true,
+            autoplaySpeed: 5000,
+            arrows: true,
           });
           console.log("slick");
         });
       </script>
-      <!--e:Slick 슬라이드 끝-->
+      <!--end:Slick 슬라이드 끝-->
+
       <section>
         <div class="content content1">
           <h2 class="how_many">딸기라떼, 몇 잔 판매되었을까요?</h2>
