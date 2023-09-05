@@ -39,6 +39,12 @@
       </section>
       <!--Slick 슬라이드 시작 (by.정승은 010-5650-9101 / 230903)-->
       <div class="magic__container">
+        <div class="magic__page">
+          <span class="magic__page__current">1</span>/<span
+            class="magic__page__total"
+            >7</span
+          >
+        </div>
         <ul class="magic__slide">
           <li>
             <!--슬라이드 이미지 파일-->
@@ -62,14 +68,6 @@
           <li>
             <img src="img/slide-img/Storage-method_06.jpg" alt="test_visual" />
           </li>
-          <li>
-            <video
-              src="img/slide-img/recipe_sub_content.mp4"
-              autoplay
-              controls
-              loop
-            ></video>
-          </li>
         </ul>
       </div>
 
@@ -79,21 +77,7 @@
         src="slick/code.jquery.com_jquery-3.7.1.min.js"
       ></script>
       <script type="text/javascript" src="slick/slick.min.js"></script>
-      <script type="text/javascript">
-        $(document).ready(function () {
-          $(".magic__slide").slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            arrows: true,
-          });
-          console.log("slick");
-        });
-      </script>
+      <script type="text/javascript" src="slick/slick-custom.js"></script>
       <!--end:Slick 슬라이드 끝-->
 
       <section>
