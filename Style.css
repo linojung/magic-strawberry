@@ -412,7 +412,6 @@ footer img {
   .slick-slide {
     width: calc(100vw / 1.5);
     height: calc(100vw / 1.5);
-    height: 100vw;
     width: auto;
   }
 }
